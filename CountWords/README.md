@@ -1,18 +1,9 @@
-## Getting Started
+## Write a java program to count words in an input file and write the results to an output file.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The input file is a .txt file with each line a single word.
+The words are not case-sensitive. That means, "Dictionary" and "dictionary" will be treated as the same word in the file.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Suppose the input file contains "hello" in 3 lines, "world" in 5 lines, and "java" in 6 lines. Your output will be a text file containing the following three lines:
+hello 3
+java 6
+world 5
